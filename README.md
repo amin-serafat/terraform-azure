@@ -1,5 +1,9 @@
 # Terraform Azure Infrastructure – Dev Environment
 
+![png drawio](https://github.com/user-attachments/assets/7dd8218f-baa8-483f-979e-1104574e33e8)
+
+
+
 This project provisions a complete Azure environment for development, including:
 
 - Resource Group  
