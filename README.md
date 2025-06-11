@@ -29,8 +29,8 @@ terraform-azure/
     └── storage/              # Storage Account module
 
 ```
-```
-Configuration
+
+## Configuration
 Review & customize resource names in envs/dev/main.tf:
 
 - Resource Group rg-dev
@@ -41,23 +41,23 @@ Review & customize resource names in envs/dev/main.tf:
 - VM SSH CIDR (0.0.0.0/0)
 
 
-Deployment Steps
+## Deployment Steps
 
-Initialize Terraform
+### Initialize Terraform
 - cd envs/dev
- - terraform init
+     - terraform init
 
-Validate & Format
+### Validate & Format
 
 - terraform fmt 
 - terraform validate
 
-Generate & Review Plan
+### Generate & Review Plan
 
 - terraform plan -out=plan.tfplan
 
-Apply
+### Apply
 
 - terraform apply plan.tfplan
 
-```
+
