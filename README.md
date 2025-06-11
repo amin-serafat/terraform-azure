@@ -70,7 +70,7 @@ I want to clarify about implementation process, I used the two type of terraform
 - creating resource from internal module
 - craeting resource direcrly
 
-Exampel : for creating container-registry could : 
+Exampel : for creating container-registry : 
 ```
 resource "azurerm_container_registry" "acr" {
   name                     = "amintest"               
